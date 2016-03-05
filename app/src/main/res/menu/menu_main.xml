@@ -2,9 +2,18 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.amodia_pc.midtermexamv2.MainActivity">
+
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"/>
+
 </menu>
